@@ -13,7 +13,7 @@ $ python lambda_function.py
 
 ### work on AWS Lambda
 
-![image](./lambda.png)
+![image](./img/lambda.png)
 
 ```
 $ mkdir packages
