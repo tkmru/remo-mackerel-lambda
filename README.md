@@ -1,7 +1,19 @@
 # remo to mackerel
-This code get my room temperature from Nature Remo, and post it as service metrics to mackerel by AWS Lambda.
+This code get my room temperature from [Nature](https://nature.global/), and post it as service metrics to [Mackerel](https://mackerel.io/ja/) by AWS Lambda.
 
 ## Usage
+set Nature Remo api token, Mackerel api key to environment variable.
+
+```
+$ export REMOTOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+$ export MACKERELKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+$ pip install requests
+$ python lambda_function.py
+```
+
+### work on AWS Lambda
+
+![image](./lambda.png)
 
 ```
 $ mkdir packages
